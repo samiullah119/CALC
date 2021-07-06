@@ -6,9 +6,10 @@
 :root{
     --black: #444;
     --red: #ff0425ec;
-    --orange: rgb(255, 174, 0);
+    --orange: rgb(0, 255, 213);
     --color: rgba(0, 0, 0, .2);
     --back: rgba(233,233,123, .8);
+    --green: #3cbc8d;
 
 }
 .container{
@@ -22,3 +23,29 @@
     padding: 30px;
     background: var(--back);
 }
+.header{
+    width: inherit;
+    background-color: var(--orange);
+    height: 75px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.header input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 8px;
+    background: var(--green);
+    font-size: larger;
+}
+.header input[type= text]:focus{
+    width: 100%;
+}
+.header input[type=text]{
+    transition: width .4s ease-in-out;
+    -webkit-transition: width .4s ease-in-out;
+}
+
+
