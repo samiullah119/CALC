@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --black: #444;
+    --red: #ff0425ec;
+    --orange: rgb(255, 174, 0);
+    --color: rgba(0, 0, 0, .2);
+    --back: rgba(233,233,123, .8);
+
+}
+.container{
+    max-width: 450px;
+    max-height: 700px;
+    border: 1px solid var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+    background: var(--back);
+}
